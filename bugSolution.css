@@ -1,0 +1,11 @@
+/* Original CSS with unnecessary prefixes */
+.element {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease; /*Standard, unprefixed version*/
+}
+
+/* Updated CSS without unnecessary prefixes */
+.element {
+  transition: all 0.3s ease;
+}
